@@ -1,0 +1,52 @@
+/* Styling the backgroud */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling main container */
+.main-cointainer{
+    text-align: center;
+}
+
+/* Changing text color to white for better visibility */
+h1, h2, h5, p{
+    color: white;
+}
+
+/* Centering and styling all elements container*/
+#allElements{
+    margin: auto;
+    max-width: 18em;
+}
+
+/* Floating Dice1 to the left*/
+#Dice1 {
+    float: left;
+}
+
+/* Floating Dice2 to the right*/ 
+#Dice2 {
+    float: right;
+}
+
+/*Styling the button */
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 0.5em;
+    width: 10em;
+    border-radius: 5em;
+    margin: 1em 0 ;
+    border: white;
+}
+
+button:hover {
+    background-color: rgb(206,17,67);
+    color: white;
+}
+
+
+
